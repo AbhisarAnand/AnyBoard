@@ -1,0 +1,46 @@
+name: flutter_with_mediapipe
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 2.0.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # design
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+
+  # tensorflow
+  tflite_flutter: ^0.9.5
+  tflite_flutter_helper: ^0.2.1
+
+  # math
+  scidart: ^0.0.2-dev.12
+
+  # image
+  camera: ^0.10.5+9
+  image: ^3.3.0
+
+  # data
+  get_it: ^7.6.7
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/images/
+    
